@@ -24,14 +24,14 @@ class TagsPlugin(BasePlugin):
     """
 
     config_scheme = (
-        ('tags_filename', Type(str, default='tags.md')),
+        ('tags_filename', Type(str, default='index.md')),
         ('tags_folder', Type(str, default='aux')),
         ('tags_template', Type(str)),
     )
 
     def __init__(self):
         self.metadata = []
-        self.tags_filename = "tags.md"
+        self.tags_filename = "index.md"
         self.tags_folder = "aux"
         self.tags_template = None
 
