@@ -32,7 +32,7 @@ class TagsPlugin(BasePlugin):
     def __init__(self):
         self.metadata = []
         self.tags_filename = "index.md"
-        self.tags_folder = "aux"
+        self.tags_folder = "aux/tags"
         self.tags_template = None
 
     def on_nav(self, nav, config, files):
