@@ -66,7 +66,7 @@ class TagsPlugin(BasePlugin):
         newfile = File(
             path=str(self.tags_filename),
             src_dir=str(self.tags_folder),
-            dest_dir=config["site_dir"],
+            dest_dir=config["site_dir"/tags],
             use_directory_urls=False
         )
         files.append(newfile)
